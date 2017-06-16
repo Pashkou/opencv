@@ -6,6 +6,7 @@ import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.videoio.VideoCapture;
 
 public class SimpleSample {
 	static {
@@ -32,6 +33,7 @@ public class SimpleSample {
 		 * System.out.println(image2 + "rows " + image2.rows() + " cols " +
 		 * image2.cols() + " elementsize " + image2.elemSize());
 		 */
+		VideoCapture  v;
 		Mat image = new Mat(new Size(3, 3), CvType.CV_8UC3, new Scalar(new double[] { 128, 3, 4 }));
 		filter(image);
 		System.out.println("OpenCV Mat data:\n" + image.dump());

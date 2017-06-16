@@ -81,7 +81,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+	<!--dependency>
 			<groupId>org.javaopencvbook</groupId>
 			<artifactId>opencvjar</artifactId>
 			<version>3.0.0</version>
@@ -91,6 +91,6 @@
 			<artifactId>opencvjar-runtime</artifactId>
 			<version>3.0.0</version>
 			<classifier>natives-windows-x86_64</classifier>
-		</dependency>
+		</dependency-->
 	</dependencies>
 </project>
